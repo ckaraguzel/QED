@@ -77,7 +77,9 @@ $\bullet$ Majority vote: We evaluated our model's performance using majority vot
 ## Future Directions:
 
 $\bullet$ Training a larger base model (e.g. Llama 3-70B)
+
 $\bullet$ Training for two to three epochs on a larger math problem dataset. 
+
 $\bullet$ Training an LLM as a verifier to judge the correctness of model-generated solutions, aiming to reduce false positives and improve overall accuracy.
 
 ## References:
