@@ -1,13 +1,13 @@
-## Erdős Data Science Bootcamp Summer 2024 Executive Summary
+# Erdős Data Science Bootcamp Summer 2024 Executive Summary
 
-# Team QED:
+## Team QED:
 Adnan Cihan Cakar, Matthew Gelvin, Cisil Karaguzel, Hatice Mutlu, Ming Zhang
 
-# Overview:
+## Overview:
 
 The state-of-the-art language models have achieved human-level performance on many tasks but still face significant challenges in multi-step mathematical reasoning. Recent advancements in large language models (LLMs) have demonstrated exceptional capabilities across diverse tasks, including common-sense reasoning, question answering, and summarization. However, they struggle with tasks requiring quantitative reasoning, such as solving complex mathematical problems. Mathematics serves as a valuable testbed in machine learning for problem-solving abilities, highlighting the need for more robust models capable of multi-step reasoning.
 
-# Objective:
+## Objective:
 
 The primary goal of this project is to develop a customized LLM that can provide step-by-step solutions to math problems by fine-tuning a base LLM using a large mathematical dataset. The major priorities of the project are:
 
@@ -17,7 +17,7 @@ $\bullet$ Improving accuracy from the base model
 
 ## Training and Evaluation:
 
-# Training Dataset : 
+### Training Dataset : 
 
 The MetaMathQA dataset is used for training. This dataset is available on Hugging Face and contains 395k math questions augmented from the training portions of the GSM8K and MATH datasets: 
 
@@ -31,7 +31,7 @@ GSM8k: https://github.com/openai/grade-school-math
 
 MATH: https://github.com/hendrycks/math
 
-# Model and Training Procedure:
+## Model and Training Procedure:
 
 $\bullet$ Starting with Unsloth’s llama-3-8b-bnb-4bit model, a quantized 4-bit model using bitsandbytes, which allows for faster fine-tuning and reduced memory usage. It is a small model with 4.65B parameters. (https://huggingface.co/unsloth/llama-3-8b-bnb-4bit)
 
