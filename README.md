@@ -1,6 +1,6 @@
-# Erdős Data Science Bootcamp Summer 2024 Executive Summary
+# QED: Erdős Data Science Bootcamp Summer 2024
 
-## Team QED:
+## Team members:
 Adnan Cihan Cakar, Matthew Gelvin, Cisil Karaguzel, Hatice Mutlu, Ming Zhang
 
 ## Overview:
@@ -31,7 +31,7 @@ GSM8k: https://github.com/openai/grade-school-math
 
 MATH: https://github.com/hendrycks/math
 
-## Model and Training Procedure:
+### Model and Training Procedure:
 
 $\bullet$ Starting with Unsloth’s llama-3-8b-bnb-4bit model, a quantized 4-bit model using bitsandbytes, which allows for faster fine-tuning and reduced memory usage. It is a small model with 4.65B parameters. (https://huggingface.co/unsloth/llama-3-8b-bnb-4bit)
 
@@ -43,7 +43,7 @@ $\bullet$ Fine-tuning the base model with supervised instruction-response pairs 
 
 $\bullet$ The model was trained with A100 GPU for 16 hours. 
 
-## Model Testing: 
+### Model Testing: 
 
 $\bullet$ We performed a hyperparameter search on the temperature of the model, which controls the variance of the output.
 
