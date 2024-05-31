@@ -67,8 +67,8 @@ $\bullet$ (Zero-shot) Accuracy: We randomly selected 500 questions from each eva
 $\bullet$ Majority vote: We evaluated our model's performance using majority voting on 50 randomly selected questions from the GSM8k test dataset, generating 5 solutions per question.
 
 | Our model                        | 44%  |
-| ---      | ---      | ---      |
-| Our model with majority vote     | 46%  |
+| ---                              | ---  |
+| Our model with majority vote     | 46%  | 
 
 ## Conclusions:
 
