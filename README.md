@@ -60,12 +60,14 @@ $\bullet$ Solution generation with and without majority voting were both tested.
 $\bullet$ (Zero-shot) Accuracy: We randomly selected 500 questions from each evaluation dataset and computed accuracies based on one generated solution for each question. Our model has relative improvements of 20% and 11% over the base model on the two datasets.
 
 | Model                            | GSM8k    | MATH     |
+| ---      | ---      | ---      |
 | Base model (llama-3-8b-bnb-4bit) |  29.4%   |  7.00%   |
 | Our model                        |  35.2%   | 7.80%    |
 
 $\bullet$ Majority vote: We evaluated our model's performance using majority voting on 50 randomly selected questions from the GSM8k test dataset, generating 5 solutions per question.
 
 | Our model                        | 44%  |
+| ---      | ---      | ---      |
 | Our model with majority vote     | 46%  |
 
 ## Conclusions:
