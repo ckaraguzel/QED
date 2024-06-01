@@ -1,4 +1,4 @@
-# QED: Erdős Data Science Bootcamp Summer 2024
+# QED: The Erdős Data Science Bootcamp Summer 2024
 
 ## Team members:
 Adnan Cihan Cakar, Matthew Gelvin, Cisil Karaguzel, Hatice Mutlu, Ming Zhang
