@@ -1,0 +1,2 @@
+# Test Data
+We tested our model on two benchmarks: [GSM8K](https://github.com/openai/grade-school-math) and [MATH](https://github.com/hendrycks/math). This version of the test datasets is from the [MetaMath](https://github.com/meta-math/MetaMath/tree/main/data/test).
